@@ -16,7 +16,11 @@ class List extends PureComponent {
                     articleList.map((item)=>{
                         return (
                             //   {/* Link 必须在 BrowserRouter 路由标签里面才能用  */}
-                            <Link key = { item.get('id') } to='/detaill' >
+                            // <Link key = { item.get('id') } to='/detaill' >
+                            //动态路由传参 1 
+                            // <Link key = { item.get('id') } to={'/detaill/' +  item.get('id')} >
+                            //动态路由传参 2
+                            <Link key = { item.get('id') } to={'/detaill?id=' +  item.get('id')} >
                                 <ListItem >
                                     <img 
                                         src = { item.get('imgURL') } 

@@ -82,7 +82,7 @@ class Writer extends PureComponent {
     }
 
     componentDidMount() {
-        console.log(this.props.writerList)
+        // console.log(this.props.writerList)
     }
 
 }

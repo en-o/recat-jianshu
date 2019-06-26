@@ -3,7 +3,9 @@ import {connect} from 'react-redux';
 //导入css动画组件
 import { CSSTransition } from 'react-transition-group';
 //常量词 ，公共方法 。等集合
-import {actionCreators} from './store'
+import {actionCreators} from './store';
+
+import {actionCreators as loginActionCreators} from '../../pages/login/store'
 //导入css  UI样式
 import {
     HeaderWrapper,
@@ -30,7 +32,7 @@ import { Link } from 'react-router-dom';
 class Header extends PureComponent{
 
     render(){
-        const {SearchInfoListData,focused,handleInputFocus,handleInputBlur} = this.props
+        const {SearchInfoListData,login,focused,handleInputFocus,handleInputBlur,logOut} = this.props
         return (
             // UIs 组件  负责页面样式
             <HeaderWrapper> 
@@ -42,7 +44,11 @@ class Header extends PureComponent{
                 <Nav>
                     <NavItem className = 'left active'>首页</NavItem>
                     <NavItem className = 'left'>下载App</NavItem>
-                    <NavItem className = 'right'>登录</NavItem>
+                    {
+                        login ? <NavItem className = 'right' onClick={logOut} >退出</NavItem> : 
+                                <Link to='/login'> <NavItem className = 'right'>登录</NavItem> </Link>
+                    }
+                   
                     <NavItem className = 'right'>
                         <span className="iconfont">&#xe636;</span>
                     </NavItem>
@@ -69,7 +75,9 @@ class Header extends PureComponent{
                 </Nav>
                 <Addition>
                     <Button className = 'reg'>注册</Button>
-                    <Button className = 'writting'><span className="iconfont">&#xe616;</span>写文章</Button>
+                    <Link to='/wirte' >
+                        <Button className = 'writting'><span className="iconfont">&#xe616;</span>写文章</Button>
+                    </Link>
                 </Addition>
             </HeaderWrapper>
         );
@@ -146,6 +154,7 @@ const mapStateToProps = (state) =>{
         page: state.getIn(['header','page']),//页码  
         mouseIn: state.getIn(['header','mouseIn']),// 热门关键词框 鼠标状态
         totalPage: state.getIn(['header','totalPage']),//总页数
+        login: state.getIn(['login','login']),
     }
 }
 
@@ -186,6 +195,9 @@ const mapDispatchToProps = (dispatch) => {
             }
 
             
+        },
+        logOut() {
+            dispatch(loginActionCreators.logOut()); //退出
         }
     }
 }

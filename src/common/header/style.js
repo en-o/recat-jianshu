@@ -4,6 +4,7 @@ import logoPic from '../../statics/nav-logo-4c7bbafe27adc892f3046e6978459bac.png
 
 /* head  */
 export const HeaderWrapper = styled.div`
+    z-index: 1;
     position: relative;
     height: 56px;
     border-bottom: 1px solid #f0f0f0;

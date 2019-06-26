@@ -10,10 +10,14 @@ import {combineReducers} from 'redux-immutable';
 
 //头部数据 的 reducer    store是一个出口 里面有很多的路径映射   headerReducer是其中一个
 import {headerReducer} from '../common/header/store';
-import {homeReducer} from '../pages/home/store'
+import {homeReducer} from '../pages/home/store';
+import {detaillReducer} from '../pages/detaill/store';
+import {loginReducer} from '../pages/login/store';
 const reducer= combineReducers ({
     header: headerReducer,
-    home: homeReducer
+    home: homeReducer,
+    detaill: detaillReducer,
+    login: loginReducer,
 })
 
 export default reducer;
