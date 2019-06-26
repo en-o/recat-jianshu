@@ -1,0 +1,61 @@
+{
+    "success":true,
+    "data": {
+            "articleList":[{
+                    "id": 1,
+                    "title": "这五款APP让人眼前一亮，每一款都是黑科技",
+                    "desc": "春节假期已经过去，相信大家在假期之间已经入手了新的手机，既然入手了新手机，手机里肯定会安装一些APP，接下来笔者就来给大家推荐五款让人眼前一亮的...",
+                    "imgURL": "//upload-images.jianshu.io/upload_images/13017056-8c9d8f548d4716bb?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240"
+                },{
+                    "id": 2,
+                    "title": "这五款APP让人眼前一亮，每一款都是黑科技",
+                    "desc": "春节假期已经过去，相信大家在假期之间已经入手了新的手机，既然入手了新手机，手机里肯定会安装一些APP，接下来笔者就来给大家推荐五款让人眼前一亮的...",
+                    "imgURL": "//upload-images.jianshu.io/upload_images/13017056-8c9d8f548d4716bb?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240"
+                },{
+                    "id": 3,
+                    "title": "这五款APP让人眼前一亮，每一款都是黑科技",
+                    "desc": "春节假期已经过去，相信大家在假期之间已经入手了新的手机，既然入手了新手机，手机里肯定会安装一些APP，接下来笔者就来给大家推荐五款让人眼前一亮的...",
+                    "imgURL": "//upload-images.jianshu.io/upload_images/13017056-8c9d8f548d4716bb?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240"
+                },{
+                    "id": 4,
+                    "title": "这五款APP让人眼前一亮，每一款都是黑科技",
+                    "desc": "春节假期已经过去，相信大家在假期之间已经入手了新的手机，既然入手了新手机，手机里肯定会安装一些APP，接下来笔者就来给大家推荐五款让人眼前一亮的...",
+                    "imgURL": "//upload-images.jianshu.io/upload_images/13017056-8c9d8f548d4716bb?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240"
+            }],
+            "recommendList": [{
+                    "id": 1,
+                    "imgURL": "http://cdn2.jianshu.io/assets/web/banner-s-club-aa8bdf19f8cf729a759da42e4a96f366.png"
+                },{
+                    "id": 2,
+                    "imgURL": "http://cdn2.jianshu.io/assets/web/banner-s-7-1a0222c91694a1f38e610be4bf9669be.png"
+                },{
+                    "id": 3,
+                    "imgURL": "http://cdn2.jianshu.io/assets/web/banner-s-5-4ba25cf5041931a0ed2062828b4064cb.png"
+                },{
+                    "id": 4,
+                    "imgURL": "http://cdn2.jianshu.io/assets/web/banner-s-6-c4d6335bfd688f2ca1115b42b04c28a7.png"
+            }],
+            "writerList": [{
+                "id": 1,
+                "imgUrl":"http://upload.jianshu.io/users/upload_avatars/3343569/6940ee65-036f-4b7a-9935-5915d9b67d14.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp",
+                "userName":"吴晓布",
+                "intro":"写了677.8k字 · 21.5k喜欢"
+            },
+            {
+                "id": 2,
+                "imgUrl":"http://upload.jianshu.io/users/upload_avatars/3343569/6940ee65-036f-4b7a-9935-5915d9b67d14.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp",
+                "userName":"吴晓布",
+                "intro":"写了677.8k字 · 21.5k喜欢"
+            },
+            {
+                "id": 3,
+                "imgUrl":"http://upload.jianshu.io/users/upload_avatars/3343569/6940ee65-036f-4b7a-9935-5915d9b67d14.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp",
+                "userName":"吴晓布",
+                "intro":"写了677.8k字 · 21.5k喜欢"
+            }]
+
+
+
+            
+    }
+}
